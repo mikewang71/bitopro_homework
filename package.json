@@ -1,0 +1,27 @@
+{
+  "name": "bitopro-api-tests",
+  "version": "1.0.0",
+  "description": "API tests for BitoPro OHLC data using Jest and axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose",
+    "test:json": "jest --reporters=default --reporters=./api_tests/jest-reporter.js"
+  },
+  "keywords": [
+    "testing",
+    "api",
+    "jest",
+    "bitopro"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.13.2"
+  },
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
